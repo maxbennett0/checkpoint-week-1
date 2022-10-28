@@ -1,0 +1,29 @@
+.bebas {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.bg-image {
+  background-image: url(https://pbs.twimg.com/media/EpS1HMIXYAcamyj.jpg:large);
+  min-height: 50vh;
+  background-size: cover;
+}
+
+.bg-text-border {
+  border-left: solid;
+  border-color: green;
+  border-width: 0.75vh;
+}
+
+.bg-skin {
+  background: #EAEAEA;
+}
+
+.mid-card {
+  min-height: 60vh;
+}
+
+@media screen and (min-width: 1000px) {
+  .offset-card {
+    transform: translateY(10vh);
+  }
+}
